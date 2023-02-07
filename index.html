@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <title>PROYECTO-1</title>
+    <script type="module" src="js/main.js" defer></script>
+</head>
+<body>
+    <div class="layout">
+        <header class="header">
+            <div class="logo">
+                <div class="play"></div>
+            </div>
+            <h1>MIS PELIS</h1>
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Peliculas</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <section id="content" class="content">
+            <article class="peli-item">
+                <h3 class="title">Pelicula 1</h3>
+                <p class="description">Accion</p>
+
+                <button class="edit">Editar</button>
+                <button class="delete">Borrar</button>
+            </article>
+        </section>        
+        <aside class="lateral">
+            <div class="search">
+                <h3 class="title">Buscador</h3>
+                <form>
+                    <input id="search_field"type="text"/>
+                    <button id="search">Buscar</button>
+                </form>
+            </div>
+
+            <div class="add">
+                <h3 class="title">Añadir pelicula</h3>
+                <form>
+                    <input type="text" id="title" placeholder="Titulo"/>
+                    <textarea id="description" placeholder="Descripcion"></textarea>
+                    <input type="submit" id="save" value="guardar"/>
+                </form>
+            </div>
+        </aside>
+
+        <footer class="footer">
+            &copy; Hecho por DOQ, MADE IN PALMIRA
+        </footer>
+
+    </div>
+</body>
+</html>
